@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Globo.com - Atividade 1</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: Arial, sans-serif; background: #eee; padding: 20px; }
+        .container { width: 900px; margin: auto; background: white; }
+        
+        /* Banner Principal */
+        .banner { background: #000; color: white; }
+        .banner img { width: 100%; display: block; }
+        .banner h1 { padding: 20px; font-size: 24px; }
+
+        /* Faixa Vermelha */
+        .vermelho { background: #c4170c; color: white; display: flex; padding: 15px; }
+        .vermelho div { flex: 1; padding: 0 10px; font-size: 13px; font-weight: bold; border-right: 1px solid #fff; }
+        .vermelho div:last-child { border: none; }
+
+        /* Noticias Baixo */
+        .grid { display: flex; padding: 20px; gap: 20px; }
+        .noticia { flex: 1; }
+        .noticia img { width: 100%; height: 160px; object-fit: cover; border-bottom: 4px solid #c4170c; }
+        .noticia h2 { color: #c4170c; font-size: 16px; margin: 10px 0; }
+        .noticia p { font-size: 13px; color: #444; }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <div class="banner">
+        <img src="trump_1.png">
+        <h1>Trump afirma que 'tudo foi destruído' no Irã e promete 3ª onda de ataques</h1>
+    </div>
+
+    <div class="vermelho">
+        <div> Israel ataca reunião que definiria novo líder...</div>
+        <div> Agência: estrondos são ouvidos em Dubai...</div>
+        <div>General do Irã ameaça centros econômicos...</div>
+    </div>
+
+    <div class="grid">
+        <div class="noticia">
+            <img src="multidao_2.png">
+            <h2>Multidão no Irã vai a funeral de crianças</h2>
+            <p> Escalada nuclear pode ser fatal</p>
+        </div>
+        <div class="noticia">
+            <img src="ameaca_3.png">
+            <h2>Trump ameaça usar bases da Espanha</h2>
+            <p> O que está por trás do conflito</p>
+        </div>
+        <div class="noticia">
+            <img src="jato_4.png">
+            <h2>Drones de US$ 20 mil x mísseis de US$ 4 mi</h2>
+            <p> Emirados criam corredor de voos</p>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
